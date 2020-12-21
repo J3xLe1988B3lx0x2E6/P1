@@ -1,0 +1,183 @@
+*{
+	padding: 0;
+	margin:0;
+	padding-right: 12px;
+	padding-left: 12px;
+	box-sizing: border-box;
+}
+
+.bg-dark{
+	background-color: #000 !important;
+}
+
+.navbar-nav .active a{
+	color:red !important;
+}
+.navbar a img{
+	width: 40%;
+	padding-left: 2px;
+}
+.form-inline a:hover{
+	color: #a3080c;
+}
+
+.imagen img{
+	width: 12%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
+}
+
+#page {
+    margin: 0px auto;
+    width: 100%;
+}
+ 
+#header {
+    position: fixed;
+    top: 0;
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 0px 2px 7px #000;
+    color: #FFFFFF;
+    width: 1250px ;
+	box-shadow: 0px 2px 7px #000;
+	font-size: 40px;
+	line-height: 40px;
+	position: fixed;
+	margin-left: 40px;
+}
+
+
+#content {
+    height: 100%;
+    overflow: auto;
+    padding: 0% 1% 0% 1%;
+    width: 98%;
+}
+.imagen table{
+	width: 100%;
+	margin-top: 60px;
+	text-align: left;
+	margin-left: 20px;
+    border-collapse: collapse; 
+}
+.imagen tr, td{
+   width: 28%;
+   margin: 0;
+
+}
+.imagen p{
+	font-family: monospace;
+	font-size: 15px;
+	margin: 0;
+	margin-top: 0;
+	text-align: left;
+}
+.imagen a:hover{
+	color: red;
+}
+.linea h2{
+	margin-top:10px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'calibry';
+}
+.container{
+	display: flex;
+	height: 60px;
+	padding: 0px;
+	justify-content: center;
+	top 0;
+}
+.container div{
+	align-items: center;
+	width: 40px;
+	background-color: #a3080c;
+	margin:25px 20px;
+	margin:15px;
+	margin-bottom: 0.2px;
+}
+.contenedor{
+	display: flex;
+	height: 60px;
+	padding: 0px;
+	margin-right: 21px;
+	justify-content: center;
+	top 0;
+}
+.contenedor div{
+	align-items: center;
+	width: 35px;
+	margin:25px 20px;
+	margin:10px;
+	margin-bottom: 0.2px;
+	text-align: center;
+	font-family: 'calibry';
+}
+.caja{
+	position: relative;
+	display: inline-block;
+
+}
+.texto1{
+	position: absolute;
+	top: 60%;
+	right: 10%;
+	font-size: 20px;
+	color:white;
+	text-align: center;
+	background:rgba(0,0,0,0.5);
+	padding: 15px 70px;
+	font-weight: 20px;
+	font-family: 'National2-Bold';
+	border: white 2px solid;
+}
+
+
+.Titulo h3{
+	width: 100%;
+	font-family: 'PT Sans';
+	font-size: 15px;
+}
+.Titulo h1{
+	font-size: 25px;
+	font-family: 'Serifa';
+	font-weight: bold;
+}
+
+.Control input{
+	margin-left: 10px;
+}
+.mapa iframe{
+	width: 100%;
+}
+.mapa h1{
+	text-align: center;
+	font-family: 'National2Condensed-Bold';
+	color: #a3080c;
+}
+.Ubicacion h2{
+	position: relative;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 35px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 300px;
+    font-size: 20px;
+    font-family: 'National2Condensed-Bold';
+}
+.Ubicacion i{
+	font-size: 20px;
+}
+.Ubicacion i:hover{
+	color: red;
+}
+.Ubicacion h2:hover{
+	color: red;
+}
